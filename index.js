@@ -49,6 +49,9 @@ app.get('/login',(req , res) => {
 app.get('/youtube' , (req , res) => {
     res.send("<h2> chai aur code </h2>")
 })
+app.get('/gitHub/login' , (req , res) => {
+    res.send(gitHubData.login)
+})
 app.get('/github' ,(req , res) => {
     res.json(gitHubData)
 })
